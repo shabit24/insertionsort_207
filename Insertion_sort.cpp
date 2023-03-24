@@ -67,19 +67,14 @@ void display() {       //procedure display
     cout << "=================================" << endl;         //output ke layar
 
     for (int j = 0; j < n;j++) {       //looping degan j dimulai dari 0 hingga n-1
-        cout << "arr[j]" << endl;   
+        cout << "arr[j]" << endl;   //output ke layar
     }
-    cout << endl;
+    cout << endl;     //output barsi kosong
 }
-
-
-
-
-
 
 int main()
 {
-    std::cout << "Hello World!\n";
+   input()
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
