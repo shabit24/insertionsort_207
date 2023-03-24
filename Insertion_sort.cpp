@@ -65,7 +65,14 @@ void display() {       //procedure display
     cout << "=================================" << endl;     // output baris kosong
     cout << "Element array yang telah tersusum" << endl;     //output ke layar 
     cout << "=================================" << endl;         //output ke layar
+
+    for (int j = 0; j < n;j++) {       //looping degan j dimulai dari 0 hingga n-1
+        cout << "arr[j]" << endl;   
+    }
+    cout << endl;
 }
+
+
 
 
 
