@@ -62,9 +62,9 @@ void insertionsort() {    // Procedure Insertionsort
 } 
 void display() {       //procedure display
     cout << endl;
-    cout << "======================" << endl;     // Mmbuat jarak per baris program
-    cout << "Masukkan Element Array" << endl;    // Membuat tampilan susunan data element array
-    cout << "======================" << endl;
+    cout << "=================================" << endl;     // output baris kosong
+    cout << "Element array yang telah tersusum" << endl;     //output ke layar 
+    cout << "=================================" << endl;         //output ke layar
 }
 
 
