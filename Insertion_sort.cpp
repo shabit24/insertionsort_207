@@ -42,14 +42,20 @@ void insertionsort() {    // Procedure Insertionsort
         temp = arr[i];              // 2. simpan silia arr[i] ke variable sementara temp
         j = i - 1;              // setting nilia j sama dengan i - 1
         while (j >= 0 && arr[j] > temp) // 4. Looping while dimana nilia j libeh besar sama dengan o dan
-        {
+        { 
+            arr[j + 1] = arr[j];           // 4a. simpan arr[j] ke dalam variable arr[j+1]
+            j--;                          // 4b. decriment nilai j by 1 
+
 
         }
-                                  // arr[j] lebih besar daripada temp
+                                                // arr[j] lebih besar daripada temp
     }
 
      
 }
+
+
+
 
 int main()
 {
