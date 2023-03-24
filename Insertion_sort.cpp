@@ -74,7 +74,10 @@ void display() {       //procedure display
 
 int main()
 {
-   input()
+    input();  // memanggil input
+    insertionsort(); // memanggil insertionsort
+    display();   // memanggil display
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
