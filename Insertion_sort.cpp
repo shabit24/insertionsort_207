@@ -52,9 +52,19 @@ void insertionsort() {    // Procedure Insertionsort
         arr[j + 1] = temp;                  // simpan nilai temp ke dalam arr[j+1]
 
         cout << "\nPass " << i << ":";   //output ke layar 
+        for (int k = 0; k < n; k++) {   //output ke layar
+         cout << arr[k] << ":";           //output ke layar
+        }
     }
 
+ 
      
+} 
+void display() {       //procedure display
+    cout << endl;
+    cout << "======================" << endl;     // Mmbuat jarak per baris program
+    cout << "Masukkan Element Array" << endl;    // Membuat tampilan susunan data element array
+    cout << "======================" << endl;
 }
 
 
