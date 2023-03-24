@@ -24,7 +24,31 @@ void input() {
     cout << endl;
     cout << "======================" << endl;     // Mmbuat jarak per baris program
     cout << "Masukkan Element Array" << endl;    // Membuat tampilan susunan data element array
-    cout << "======================" << endl;       //Tampilan output
+    cout << "======================" << endl; 
+
+    for (int i = 0; i < n; i++) {
+        cout << "Data ke-" << (i + 1) << ":";   //Menggunakan perulangan for untuk menyimpan sata pada 
+        cin >> arr[i];                          // Menyimpan nilai data n kedalam array arr
+    }
+
+} 
+
+void insertionsort() {    // Procedure Insertionsort
+     
+    int temp;              // Membuat variable data temporary atau penimpanan sementara 
+    int j;                 // Membuat variable j sebaji pananda
+
+    for (int i = 1; i < n; i++) {  //1. Looping dengan i dimulai dari i hingga n-1
+        temp = arr[i];              // 2. simpan silia arr[i] ke variable sementara temp
+        j = i - 1;              // setting nilia j sama dengan i - 1
+        while (j >= 0 && arr[j] > temp) // 4. Looping while dimana nilia j libeh besar sama dengan o dan
+        {
+
+        }
+                                  // arr[j] lebih besar daripada temp
+    }
+
+     
 }
 
 int main()
